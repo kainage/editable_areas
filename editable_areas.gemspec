@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = EditableAreas::VERSION
   spec.authors       = ["Kainage"]
   spec.email         = ["kainage@gmail.com"]
-  spec.description   = %q{Renders text and an edit button or an editor anywhere in your rails 4 application}
-  spec.summary       = %q{Renders text and an edit button or an editor anywhere in your rails 4 application}
+  spec.description   = %q{Renders text or an editor anywhere in your rails 4 application}
+  spec.summary       = %q{Renders text or an editor anywhere in your rails 4 application}
   spec.homepage      = "https://github.com/kainage/editable_area"
   spec.license       = "MIT"
 

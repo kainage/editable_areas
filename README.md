@@ -2,7 +2,7 @@
 
 **Requires ruby >= v2.0 && rails >= v4.0.0.rc1**
 
-Renders text and an edit button or an editor anywhere in your rails 4 application
+Renders text or an editor anywhere in your rails 4 application
 
 ## Installation
 
