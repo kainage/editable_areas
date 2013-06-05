@@ -66,7 +66,7 @@ or you use the _ckeditor-rails_ gem. If not, you can just ignore this.
 ### CanCan integration
 
 If you are using CanCan for authorization, the ```EditableAreasController``` will
-automatically add authorization to the _update_ action with ```ruby authorize! :update, @editable_area```.
+automatically add authorization to the _update_ action with ```authorize! :update, @editable_area```.
 
 ## Contributing
 
