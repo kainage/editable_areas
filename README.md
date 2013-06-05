@@ -1,6 +1,7 @@
 # Editable Areas
 
-**Requires ruby >= v2.0 && rails >= v4.0.0.rc1**
+Requires ruby >= **v2.0** 
+Requires rails >= **v4.0.0.rc1**
 
 Renders text or an editor anywhere in your rails 4 application
 
@@ -32,7 +33,7 @@ Migrate the database:
 
 Add one of the helper methods to one of your pages:
 
-```ruby
+```
 <%= render_or_edit_area_with_button(title: 'Title' accessible: true) %>
 ```
 The accessible option will hide the edit button and never render the editable form
@@ -51,7 +52,7 @@ not render the form unless ```accessible = true```
 
 If you want to render the form/content and the button separately you can:
 
-```ruby
+```
 <%= render_or_edit_area(title: 'Title', accessible: true) %> # Renders only the content or form
 
 <%= render_edit_area_button(accessible: true) %> # Renders only the edit button
