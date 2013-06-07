@@ -5,7 +5,7 @@ module EditableAreasHelper
     if params[:edit] && accessible
       render 'editable_areas/form', :editable_area => editable_area
     else
-      render editable_area
+      render 'editable_areas/editable_area', :editable_area => editable_area
     end
   end
 
