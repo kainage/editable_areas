@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/kainage/editable_areas.png)](https://travis-ci.org/kainage/editable_areas)
 
 Requires ruby >= **v2.0** 
-Requires rails >= **v4.0.0.rc1**
+Requires rails >= **v4.0.0**
 
 Renders text or an editor anywhere in your rails 4 application
 
