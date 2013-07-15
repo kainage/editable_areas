@@ -38,6 +38,9 @@ Add one of the helper methods to one of your pages:
 ```
 <%= render_or_edit_area_with_button(title: 'Title' accessible: true) %>
 ```
+
+Title is the unique identifier for the text area. This can be whatever you want.
+
 The accessible option will hide the edit button and never render the editable form
 (will always render the content) if false. Pass in an _admin_ or _moderator_ etc.
 check here.
