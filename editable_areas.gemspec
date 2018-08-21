@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = EditableAreas::VERSION
   spec.authors       = ["Kainage"]
   spec.email         = ["kainage@gmail.com"]
-  spec.description   = %q{Renders text or an editor anywhere in your rails 4 application}
-  spec.summary       = %q{Renders text or an editor anywhere in your rails 4 application}
+  spec.description   = %q{Renders text or an editor anywhere in your rails application}
+  spec.summary       = %q{Renders text or an editor anywhere in your rails application}
   spec.homepage      = "https://github.com/kainage/editable_area"
   spec.license       = "MIT"
 
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "rails", "~> 4.0.0"
+  spec.add_dependency "rails", "~> 5.2.0"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"

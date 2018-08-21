@@ -1,3 +1,7 @@
+## v0.1.0
+
+* Update to rails v5.2.1
+
 ## v0.0.3
 
 * Update to rails v4.0.0
