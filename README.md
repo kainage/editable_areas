@@ -36,7 +36,7 @@ Migrate the database:
 Add one of the helper methods to one of your pages:
 
 ```
-<%= render_or_edit_area_with_button(title: 'Title' accessible: true) %>
+<%= render_or_edit_area_with_button('Title' accessible: true) %>
 ```
 
 Title is the unique identifier for the text area. This can be whatever you want.
@@ -58,7 +58,7 @@ not render the form unless ```accessible = true```
 If you want to render the form/content and the button separately you can:
 
 ```
-<%= render_or_edit_area(title: 'Title', accessible: true) %> # Renders only the content or form
+<%= render_or_edit_area('Title', accessible: true) %> # Renders only the content or form
 
 <%= render_edit_area_button(accessible: true) %> # Renders only the edit button
 ```
